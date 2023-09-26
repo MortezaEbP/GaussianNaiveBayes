@@ -26,7 +26,7 @@ $${\Huge\displaystyle \Huge \ P(x | y) = \prod_{i=1}^{n} \frac{1}{\sqrt{2\pi\sig
 
 ${\mathbf{n}}$ is the number of features.
 
-${\mathbf{x_i}}$ is the$\(i\)$-th feature of ${\mathbf{x}}$.
+${\mathbf{x_i}}$ is the $\(i\)$-th feature of ${\mathbf{x}}$.
 
 $\mu_{y,i}\$ is the mean of the $\(i\)$-th feature for class y.
 
