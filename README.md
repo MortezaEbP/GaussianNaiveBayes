@@ -36,10 +36,7 @@ $\sigma_{y,i}^2\$ is the variance of the $\(i\)$-th feature for class y.
 
 ## Vectorized Computations
 To enhance computational efficiency, Gaussian Naive Bayes can be implemented using vectorized operations. These operations leverage NumPy arrays and perform calculations across entire arrays, enabling faster processing.
-For instance, the vectorized calculation of the likelihood can be written as:
-$${\Huge\displaystyle \Huge \ P(x | y) = \prod \frac{1}{\sqrt{2\pi\sigma_{y}^2}} \exp\left(-\frac{(x - \mu_{y})^2}{2\sigma_{y}^2}\right)}$$
 
-Where $\mu_{y,i}\$ and $\sigma_{y}^2\$ are now matrices representing means and variances for each feature and class.
 # Conclusion
 Gaussian Naive Bayes is a simple yet effective algorithm for classification tasks, especially when the independence assumption holds between features. It leverages the probabilistic framework of Bayes' theorem and assumes Gaussian distribution of features within classes. By utilizing vectorized computations, Gaussian Naive Bayes efficiently calculates probabilities and makes it suitable for large datasets and high-dimensional feature spaces.
 
